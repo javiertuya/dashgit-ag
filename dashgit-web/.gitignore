@@ -1,0 +1,5 @@
+test/node_modules
+test/mochawesome-report
+test/actual
+test/package-lock.json
+dist

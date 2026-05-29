@@ -1,0 +1,16 @@
+{
+  "name": "dashgit-test",
+  "description": "DashGit - A Dashboard for GitHub and GitLab - Unit tests",
+  "author": "Javier Tuya <tuya@uniovi.es>",
+  "type": "module",
+  "scripts": {
+    "test": "mocha Test*.js",
+    "report": "mocha Test*.js --reporter mochawesome"
+  },
+  "dependencies": {
+    "mocha": "11.7.5",
+    "sinon": "21.1.2",
+    "chai": "6.2.2",
+    "mochawesome": "7.1.4"
+  }
+}
